@@ -1,6 +1,7 @@
 
 # coding:utf-8
 
+# クラスとメソッドの使い方
 class TestClass:
     name = ""
     def __init__(self, name):
