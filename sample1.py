@@ -1,13 +1,13 @@
 
 # coding:utf-8
 
-print("こんにちは、Python!")
-
-
-# クラスの定義
-class SubClass(object):
+class TestClass:
+    name = ""
     def __init__(self, name):
-        self.name = arg
+        self.name = name
 
     def hello(self):
-        print("こんにちは、"+self.name)
+        print("こんにちは、" + self.name + "！")
+
+test_class = TestClass("Python")
+test_class.hello()
